@@ -1,0 +1,32 @@
+{
+  "name": "dot9_url_shortener_backend",
+  "version": "1.0.0",
+  "description": "The backend repo for the URL shortener app for Dot9.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amine-Frikha/Dot9_URL_Shortener_Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amine-Frikha/Dot9_URL_Shortener_Backend/issues"
+  },
+  "homepage": "https://github.com/Amine-Frikha/Dot9_URL_Shortener_Backend#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "nanoid": "^2.1.11",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
